@@ -1,0 +1,18 @@
+{
+  "name": "testing-workshop-mock",
+  "version": "1.0.0",
+  "description": "Backend for a testing workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.novatec-gmbh.de:Marcel.Haag/testing-workshop-mock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

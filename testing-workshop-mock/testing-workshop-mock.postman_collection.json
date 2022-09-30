@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "6ce33c38-fe0d-4c4f-9f6f-aadf8bf0bbcd",
+		"name": "testing-workshop-mock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Resource (Elements)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/elements",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"elements"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

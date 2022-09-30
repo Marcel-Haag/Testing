@@ -1,0 +1,19 @@
+{
+  "defaultCommandTimeout": 10000,
+  "responseTimeout": 20000,
+  "requestTimeout": 20000,
+  "numTestsKeptInMemory": 50,
+  "viewportWidth": 1280,
+  "viewportHeight": 1024,
+  "fileServerFolder": ".",
+  "fixturesFolder": "./src/fixtures",
+  "integrationFolder": "./src/integration",
+  "pluginsFile": "./src/plugins/index",
+  "supportFile": "./src/support/index.ts",
+  "video": false,
+  "videoUploadOnPasses": false,
+  "chromeWebSecurity": false,
+  "pageLoadTimeout": 80000,
+  "baseUrl": "http://localhost:4200",
+  "testFiles": ["**/*.spec.ts"]
+}

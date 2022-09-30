@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES6",
+    "lib": ["ES2019", "ES2018", "DOM"],
+    "types": ["cypress", "node", "cypress-file-upload"],
+    "allowJs": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [
+    "cypress/support/index.d.ts",
+  ],
+  "include": [
+    "node_modules/cypress",
+    "src/**/*.ts",
+    "src/assets/unfetch-polyfill.js"
+  ],
+  "options": {
+    "cypressConfig": "e2e/cypress.json",
+    "tsConfig": "e2e/tsconfig.json"
+  }
+}
